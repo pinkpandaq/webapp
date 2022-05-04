@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 17px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+}
+
+.displayLeft {
+    height: 100vh;
+    background-image: linear-gradient(#1cb693, #24947d);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.displayRight {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+
+.textSub {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.positionMonth {
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.positionCalc {
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.whiteFont {
+    color: rgba(255, 255, 255, 0.92);
+}
+
+.darkGreyFont {
+    color: #4e4e4e;
+}
+
+.amountDisplay {
+    display: inline-block;
+    background: #FFFFFFFF;
+    border-radius: 9px;
+    box-shadow: 0 6px 4px #000000;
+}
+
+.amountText {
+    font-size: 36px;
+    font-weight: 700;
+}
+.howtoText{
+    font-size: 18px;
+    right: 0;
+}
+.borderLine {
+    border-bottom: 1px solid #00446D;
+}
+
+.paddingExp {
+    padding: 10px;
+}
+
+.expDateTextColor {
+    color: #077CC1;
+}
+
+.expDateText {
+    color: #077CC1;
+}
+
+.expListType {
+    overflow-y: scroll;
+}
+
+.font15 {
+    font-size: 15px;
+}
+
+.ValExp {
+    text-align: end;
+}
+
+.GreenExp {
+    color: #039300;
+}
+
+.RedExp {
+    color: #E40000;
+}
+
+.expense-investment {
+    color: #f48803;
+}
+
+#marginChart {
+    margin: 20% 0;
+}
+
+.submitButtonRadius {
+    border-radius: 50%;
+}
+
+.currency-select {
+    margin: 0 4%;
+}
+
+.selected-currency {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1%;
+}
+.howtoPic{
+    max-width: 75%;
+}
